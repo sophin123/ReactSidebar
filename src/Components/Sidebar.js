@@ -18,6 +18,8 @@ import { FiMenu } from "react-icons/fi";
 import sideBarBg from "../Assests/bg1.jpeg";
 import { Route, Routes, Link } from "react-router-dom";
 
+import { FiMessageCircle } from "react-icons/fi";
+
 export default function Sidebar({ image, collapsed, handleToggleSidebar }) {
   return (
     <ProSidebar className="sidebar" image={sideBarBg} collapsed={collapsed}>
@@ -50,11 +52,15 @@ export default function Sidebar({ image, collapsed, handleToggleSidebar }) {
             <Link to="/profile" />
           </MenuItem>
 
-          <MenuItem icon={<Icons img={chatIcon} alt="Chat" />}>
+          <MenuItem icon={<FiMessageCircle size={20} />}>
             Message
+            <Link to="/message" />
           </MenuItem>
 
-          <MenuItem icon={<FaHeart />}>Favourite</MenuItem>
+          <MenuItem icon={<FaHeart />}>
+            Favourite
+            <Link to="/favourite" />
+          </MenuItem>
         </Menu>
       </SidebarContent>
       <SidebarFooter></SidebarFooter>

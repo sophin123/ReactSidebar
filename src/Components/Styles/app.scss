@@ -8,6 +8,8 @@
   box-sizing: border-box;
 }
 
-.sidebar {
-  position: absolute;
+.app {
+  height: 100vh;
+  display: flex;
+  position: relative;
 }

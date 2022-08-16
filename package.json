@@ -9,6 +9,7 @@
     "react-dom": "18.0.0",
     "react-icons": "4.4.0",
     "react-intl": "6.0.5",
+    "react-ion-icon": "^4.0.0",
     "react-pro-sidebar": "0.7.1",
     "react-router-dom": "6",
     "react-scripts": "4.0.0",

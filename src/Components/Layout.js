@@ -9,7 +9,7 @@ export default function Layout() {
     setCollapsed((prev) => !collapsed);
   };
   return (
-    <div>
+    <div className="app">
       <Sidebar
         collapsed={collapsed}
         handleToggleSidebar={handleToggleSidebar}
