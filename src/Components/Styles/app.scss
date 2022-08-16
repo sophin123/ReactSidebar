@@ -13,3 +13,33 @@
   display: flex;
   position: relative;
 }
+
+.span {
+  background-color: red;
+  padding: 5px;
+  border-radius: 20px;
+  width: 40px;
+  height: 20px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.notification {
+  background-color: red;
+  padding: 4;
+  border-radius: 50%;
+}
+
+p {
+  width: 160px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.email {
+  text-overflow: ellipsis;
+}
