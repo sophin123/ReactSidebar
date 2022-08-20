@@ -99,7 +99,7 @@ export default function Sidebar({ image, collapsed, handleToggleSidebar }) {
       <SidebarFooter className="sidebarFooter">
         <Menu iconShape="square">
           <MenuItem style={{ fontSize }} icon={<FiGithub />}>
-            <div>
+            <div style={{ marginLeft: 20 }}>
               <h3>Sophin Shrestha</h3>
               <p className="email">sophinstha123@gmail.com</p>
             </div>
